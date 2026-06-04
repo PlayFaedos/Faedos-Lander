@@ -1,0 +1,53 @@
+:root {
+    --main: #554968;
+    --bright: #8066aa;
+    --dark: #3a3344;
+    --vivid: #542e92;
+    --accent: #e9c069;
+}
+
+#page-wrapper {
+    width: 1000px;
+    height: 1000px;
+    transform-origin: top left;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+}
+
+.button:hover {
+    filter: brightness(1.3); 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 40px;
+  width: fit-content;
+  margin: 0 auto;      
+}
+
+.container div {
+  background-color: var(--main);
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.infotext {
+    text-align: right;
+}
+
+body {
+    font-family: "Roboto Slab";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: normal;
+    background-color: var(--dark);
+}
+
+a {
+    color: var(--accent)
+}
+
